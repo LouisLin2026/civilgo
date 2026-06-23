@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "note": "題庫資料結構（依規格書第五節擴充：補上 question / options / answer / explanation 才能實際作答）。目標 2000 題，可持續批次新增。",
+    "schema": {
+      "id": "number 唯一編號（行政學 1xxxx／政治學 2xxxx／地方自治 3xxxx／公共管理 4xxxx）",
+      "subject": "string 科目",
+      "chapter": "string 章節",
+      "difficulty": "number 1-3",
+      "year": "number 年度（無則填 0）",
+      "type": "single_choice",
+      "question": "string 題幹",
+      "options": ["string 四個選項"],
+      "answer": "number 正解索引 0-3",
+      "explanation": "string 解析"
+    }
+  },
+  "questions": [
+    {"id":10001,"subject":"行政學","chapter":"行政學導論","difficulty":1,"year":0,"type":"single_choice","question":"一般被視為公共行政成為獨立學科開端的著作為？","options":["威爾遜〈行政的研究〉","泰勒《科學管理原理》","韋伯《支配社會學》","賽蒙《行政行為》"],"answer":0,"explanation":"威爾遜（Wilson）1887 年〈行政的研究〉提出政治行政二分，被視為行政學獨立的開端。"},
+    {"id":10002,"subject":"行政學","chapter":"科層組織","difficulty":2,"year":0,"type":"single_choice","question":"下列何者「不是」韋伯理想型官僚體制（bureaucracy）的特徵？","options":["依法行事、對事不對人","層級節制的權威","專業分工","依個人情誼任用人員"],"answer":3,"explanation":"官僚體制強調依法、專業與功績任用，對事不對人；依個人情誼任用與其精神相反。"},
+    {"id":10003,"subject":"行政學","chapter":"科學管理","difficulty":1,"year":0,"type":"single_choice","question":"被稱為「科學管理之父」的學者是？","options":["費堯（Fayol）","泰勒（Taylor）","古立克（Gulick）","梅堯（Mayo）"],"answer":1,"explanation":"泰勒（Frederick Taylor）以時間與動作研究奠定科學管理，被稱為科學管理之父。"},
+    {"id":10004,"subject":"行政學","chapter":"人群關係學派","difficulty":2,"year":0,"type":"single_choice","question":"霍桑實驗（Hawthorne Studies）最主要的發現是？","options":["照明強度與產量成正比","非正式組織與社會心理因素影響生產力","金錢誘因是唯一動機","層級越多效率越高"],"answer":1,"explanation":"霍桑實驗由梅堯等人主持，發現非正式組織、受重視感等社會心理因素對生產力影響重大，開啟人群關係學派。"},
+    {"id":10005,"subject":"行政學","chapter":"激勵理論","difficulty":2,"year":0,"type":"single_choice","question":"馬斯洛（Maslow）需求層次理論中，最高層次的需求是？","options":["安全需求","尊榮需求","自我實現需求","社會需求"],"answer":2,"explanation":"需求層次由低至高為：生理、安全、社會、尊榮、自我實現；最高為自我實現。"},
+    {"id":10006,"subject":"行政學","chapter":"激勵理論","difficulty":3,"year":0,"type":"single_choice","question":"赫茲伯格（Herzberg）雙因子理論中，下列何者屬於「保健因子」？","options":["成就感","工作本身","薪資與工作條件","責任感"],"answer":2,"explanation":"保健因子（外在）如薪資、工作條件、人際關係，只能消除不滿；激勵因子（內在）如成就、責任、肯定才能帶來滿足。"},
+    {"id":10007,"subject":"行政學","chapter":"民營化","difficulty":2,"year":0,"type":"single_choice","question":"政府將公共服務交由民間提供，以提升效率的作法，最接近下列何者？","options":["民營化","集權化","層級化","國有化"],"answer":0,"explanation":"民營化（privatization）指將公營事業或公共服務移轉、委由民間經營或提供。"},
+    {"id":20001,"subject":"政治學","chapter":"民主政治","difficulty":2,"year":0,"type":"single_choice","question":"主張「政府管得越少越好、市場機能優先」最接近哪種意識形態？","options":["古典自由主義","社會主義","保守主義","法西斯主義"],"answer":0,"explanation":"古典自由主義強調有限政府、自由市場與個人自由，視政府過度干預為弊。"},
+    {"id":20002,"subject":"政治學","chapter":"憲政體制","difficulty":3,"year":0,"type":"single_choice","question":"依我國憲法增修條文，中央政府體制最接近下列何者？","options":["總統制","內閣制","半總統制（雙首長制）","委員制"],"answer":2,"explanation":"我國總統由人民直選、行政院對立法院負責，兼具總統制與內閣制特徵，學界多歸為半總統制。"},
+    {"id":20003,"subject":"政治學","chapter":"選舉制度","difficulty":3,"year":0,"type":"single_choice","question":"單一選區相對多數決制（FPTP）依杜瓦傑法則最可能形成？","options":["多黨制","兩黨制","一黨制","無黨籍主導"],"answer":1,"explanation":"杜瓦傑法則指出，單一選區相對多數決傾向形成兩黨制。"},
+    {"id":20004,"subject":"政治學","chapter":"政黨制度","difficulty":2,"year":0,"type":"single_choice","question":"利益團體與政黨最主要的差異在於？","options":["利益團體不以取得執政權為目標","利益團體一定是非法組織","政黨不參與選舉","兩者完全相同"],"answer":0,"explanation":"政黨目標在取得並行使政權；利益團體則在影響政策，不直接競逐執政權。"},
+    {"id":30001,"subject":"地方自治","chapter":"地方制度法","difficulty":2,"year":0,"type":"single_choice","question":"下列何者「不是」我國的地方自治團體？","options":["直轄市","縣（市）","鄉（鎮、市）","省"],"answer":3,"explanation":"1998 年精省後，省為非地方自治團體（行政院派出機關）。地方自治團體為直轄市、縣市、鄉鎮市。"},
+    {"id":30002,"subject":"地方自治","chapter":"地方制度法","difficulty":1,"year":0,"type":"single_choice","question":"地方制度法的中央主管機關為？","options":["行政院","內政部","立法院","考試院"],"answer":1,"explanation":"地方制度法第 2 條規定，中央主管機關為內政部。"},
+    {"id":30003,"subject":"地方自治","chapter":"委辦事項","difficulty":3,"year":0,"type":"single_choice","question":"關於「自治事項」與「委辦事項」，下列敘述何者正確？","options":["委辦事項由地方自主負政策成敗之責","自治事項由地方依法自行辦理並負其責","兩者經費皆由地方全額負擔","委辦事項地方有完全裁量權"],"answer":1,"explanation":"自治事項由地方自主辦理並負成敗之責；委辦事項係上級委由地方執行，責任與經費歸屬上級。"},
+    {"id":40001,"subject":"公共管理","chapter":"NPM","difficulty":2,"year":0,"type":"single_choice","question":"新公共管理（NPM）的核心理念，下列何者「錯誤」？","options":["結果與產出導向","引進市場競爭機制","強調投入控制與繁複程序","顧客導向"],"answer":2,"explanation":"NPM 主張由投入控制轉向結果／產出導向，鬆綁繁複程序，與「強調投入控制」相反。"},
+    {"id":40002,"subject":"公共管理","chapter":"平衡計分卡","difficulty":2,"year":0,"type":"single_choice","question":"平衡計分卡（BSC）四大構面，下列何者「不」屬於？","options":["財務構面","顧客構面","內部流程構面","競爭者構面"],"answer":3,"explanation":"BSC（Kaplan & Norton）四構面為財務、顧客、內部流程、學習與成長；無競爭者構面。"},
+    {"id":40003,"subject":"公共管理","chapter":"治理理論","difficulty":3,"year":0,"type":"single_choice","question":"「治理」（governance）相較於「統治」（government）更強調？","options":["單一政府由上而下命令","多元行動者協力與網絡互動","完全交由市場決定","減少公民參與"],"answer":1,"explanation":"治理強調政府、市場、公民社會等多元行動者的網絡協力，而非政府單向由上而下的統治。"}
+  ]
+}

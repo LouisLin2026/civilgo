@@ -1,0 +1,17 @@
+{
+  "name": "CivilGo 公職衝刺系統",
+  "short_name": "CivilGo",
+  "description": "每天 30 分鐘，用通勤時間考上一般民政。",
+  "lang": "zh-TW",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0F1E33",
+  "theme_color": "#0F1E33",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
