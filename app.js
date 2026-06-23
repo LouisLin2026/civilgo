@@ -39,10 +39,10 @@ const App = (() => {
     load();
     app().innerHTML = loading();
     try{
-      const [c,q] = await Promise.all([ fetchJSON('./data/courses.json'), fetchJSON('./data/questions.json') ]);
+      const [c,q] = await Promise.all([ fetchJSON('./courses.json'), fetchJSON('./questions.json') ]);
       COURSES=c; QUESTIONS=q.questions||[];
     }catch(e){
-      app().innerHTML = `<div class="view"><div class="empty">課程資料載入失敗。<br>請確認 data/courses.json 與 data/questions.json 已一同部署，並透過網址（http/https）開啟。</div></div>`;
+      app().innerHTML = `<div class="view"><div class="empty">課程資料載入失敗。<br>請確認 courses.json 與 questions.json 已與 index.html 放在同一層，並透過網址（http/https）開啟。</div></div>`;
       return;
     }
     initTTS();

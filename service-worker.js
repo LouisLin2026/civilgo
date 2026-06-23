@@ -1,16 +1,14 @@
-/* CivilGo service worker — offline app shell + data */
-const CACHE = 'civilgo-v1';
+/* CivilGo service worker — offline app shell + data (flat layout) */
+const CACHE = 'civilgo-v2';
 const ASSETS = [
   './',
   './index.html',
   './style.css',
   './app.js',
   './manifest.json',
-  './data/courses.json',
-  './data/questions.json',
-  './data/essays.json',
-  './icons/icon-192.png',
-  './icons/icon-512.png'
+  './courses.json',
+  './questions.json',
+  './essays.json'
 ];
 
 self.addEventListener('install', e => {
@@ -27,8 +25,8 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET') return;
-  // network-first for data (keep content fresh), cache-first for shell
-  if (req.url.includes('/data/')) {
+  // network-first for JSON content (keep fresh), cache-first for everything else
+  if (req.url.endsWith('.json')) {
     e.respondWith(
       fetch(req).then(res => {
         const copy = res.clone();
