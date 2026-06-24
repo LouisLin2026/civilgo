@@ -1,0 +1,32 @@
+[
+  { "day": 1, "exam_importance": 4, "review_priority": "B" }, // 地方自治基本概念、本質論
+  { "day": 2, "exam_importance": 4, "review_priority": "B" }, // 地方自治團體與法人地位
+  { "day": 3, "exam_importance": 5, "review_priority": "A" }, // 地方制度法第2條（用詞定義）
+  { "day": 4, "exam_importance": 5, "review_priority": "A" }, // 地方自治法源、憲法保障（釋字與憲判）
+  { "day": 5, "exam_importance": 5, "review_priority": "A" }, // 地制法第7條（地方改制與人口門檻）
+  { "day": 6, "exam_importance": 5, "review_priority": "A" }, // 地方權限劃分（地制法第18~20條）
+  { "day": 7, "exam_importance": 5, "review_priority": "A" }, // 自治事項與委辦事項的區辨
+  { "day": 8, "exam_importance": 5, "review_priority": "A" }, // 自治法規分類（地制法第25條）
+  { "day": 9, "exam_importance": 5, "review_priority": "A" }, // 自治條例的罰則與限制（地制法第26條）
+  { "day": 10, "exam_importance": 5, "review_priority": "A" }, // 自治法規的效力與定名（地制法第28~30條）
+  { "day": 11, "exam_importance": 4, "review_priority": "B" }, // 委辦規則与自律規範
+  { "day": 12, "exam_importance": 5, "review_priority": "A" }, // 地方行政機關組織與首長職權（地制法第56~57條）
+  { "day": 13, "exam_importance": 4, "review_priority": "B" }, // 地方行政機關副首長與政務職派任
+  { "day": 14, "exam_importance": 5, "review_priority": "A" }, // 地方立法機關職權（地制法第35~37條）
+  { "day": 15, "exam_importance": 4, "review_priority": "B" }, // 地方民意代表大會開會與法定人數
+  { "day": 16, "exam_importance": 5, "review_priority": "A" }, // 地方行政與立法的關係（覆議、總質詢）
+  { "day": 17, "exam_importance": 5, "review_priority": "A" }, // 地方民意代表與首長之權利、義務與限制
+  { "day": 18, "exam_importance": 4, "review_priority": "B" }, // 地方財政收入分類（財劃法基本架構）
+  { "day": 19, "exam_importance": 5, "review_priority": "A" }, // 自籌財源與地方稅法通則
+  { "day": 20, "exam_importance": 4, "review_priority": "B" }, // 統籌分配稅款與補助金制度
+  { "day": 21, "exam_importance": 5, "review_priority": "A" }, // 自治監督：自治事項與委辦事項的撤銷、變更（地制法第75條）
+  { "day": 22, "exam_importance": 5, "review_priority": "A" }, // 自治監督：地方首長與議員的停職、解職（地制法第78~79條）
+  { "day": 23, "exam_importance": 4, "review_priority": "B" }, // 自治監督：地方機關代行處理（地制法第76條）
+  { "day": 24, "exam_importance": 4, "review_priority": "B" }, // 地方府際關係與跨區域合作（地制法第24條之1）
+  { "day": 25, "exam_importance": 5, "review_priority": "A" }, // 地方自治與原住民族權益（地制法原鄉專條）
+  { "day": 26, "exam_importance": 3, "review_priority": "C" }, // 鄰里制度與社區發展之關聯
+  { "day": 27, "exam_importance": 4, "review_priority": "B" }, // 地方居民之權利義務與公民投票
+  { "day": 28, "exam_importance": 3, "review_priority": "C" }, // 當代地方治理理論（都會治理、多層次治理）
+  { "day": 29, "exam_importance": 4, "review_priority": "B" }, // 國際地方自治發展趨勢與比較
+  { "day": 30, "exam_importance": 4, "review_priority": "B" }  // 總複習與普考模擬題型演練
+]
