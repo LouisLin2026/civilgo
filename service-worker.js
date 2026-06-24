@@ -1,5 +1,5 @@
 /* CivilGo service worker — offline app shell + data (flat layout) */
-const CACHE = 'civilgo-v2';
+const CACHE = 'civilgo-v3';
 const ASSETS = [
   './',
   './index.html',
