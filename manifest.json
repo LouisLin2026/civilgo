@@ -1,7 +1,7 @@
 {
   "name": "CivilGo 公職衝刺系統",
   "short_name": "CivilGo",
-  "description": "每天 30 分鐘，用通勤時間考上一般民政。",
+  "description": "用通勤與零碎時間考上一般民政：深度課程、Podcast 倍速、車用模式、分級題庫與智慧複習。",
   "lang": "zh-TW",
   "start_url": "./index.html",
   "scope": "./",
